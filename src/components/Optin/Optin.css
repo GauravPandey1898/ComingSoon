@@ -30,6 +30,9 @@
   opacity: 0;
 }
 #modal.is_open {
+  display: block;
+  z-index: 10000;
+  position: fixed;
 }
 #modal .wrapper {
   color: #444;
